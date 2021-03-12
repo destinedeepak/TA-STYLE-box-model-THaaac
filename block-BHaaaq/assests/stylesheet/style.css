@@ -1,0 +1,127 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body{
+    font-weight: lighter;
+    line-height: 1.5;
+} 
+
+/* customs styles */
+body{
+    line-height:1.5;
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 32px;
+    font-weight: bold;
+    margin: 45px 0px 50px 30px;
+}
+section{
+    margin-left: 30px;
+}
+.div-1{
+    margin-bottom: 55px;
+}
+.square-1{
+    width: 150px;
+    height: 100px;
+    background-color: brown;
+    border: 5px solid black;
+    margin-bottom: 55px;
+}
+.square-2{
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    background-color: brown;
+    border: 5px double black;
+}
+.square-3{
+    margin-left: 35px;
+    border:5px dashed black;
+}
+.square-4{
+    border-style: dotted;
+}
+.square-5{
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    background-color: brown;
+    margin-left: 35px;
+}
+footer{
+    margin-top: 35px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+.outer-div{
+    width: 400px;
+    height: 450px;
+    background-color: purple;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.inner-div{
+    background-color: rgb(228, 80, 80);
+    width: 364px;
+    height: 414px;
+    border-top: 18px solid blue;
+    border-right: 18px solid gray;
+    border-bottom: 18px solid yellow;
+    border-left: 18px solid green;
+}
+p{
+    padding: 12px;
+    color: white;
+}
